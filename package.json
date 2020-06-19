@@ -1,0 +1,29 @@
+{
+  "name": "bitcoin-tracker",
+  "version": "1.0.0",
+  "description": "Gets the daily bitcoin change rate and write it in a csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/bitcoin-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/bitcoin-tracker/issues"
+  },
+  "homepage": "https://github.com/driverInside/bitcoin-tracker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
